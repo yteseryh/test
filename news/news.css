@@ -1,0 +1,263 @@
+body{
+	margin: 0;
+	font-size: 0;
+}
+h3,p{
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+ul{
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+
+.container{
+	padding: 5% 4% 0 4%;
+}
+.container-nav{
+	font-size: 1.25rem;
+	font-family: "宋体";
+	margin-bottom: 6%;
+}
+.section1{
+	padding: 4.5% 6% 12% 6%;
+	box-shadow: 0 0 7px 4px #f3f3f3;
+}
+
+.section1-title{
+	font-size: 1.625rem;
+	font-weight: normal;
+	font-family: "宋体";
+	padding-bottom: 6%;
+	border-bottom: 1px solid #d7d7d7;
+}
+.section1-info{
+	font-size: 1.125rem;
+	font-family: "Myriad Pro";
+	color: #8d8d8d;
+	margin-top: 4%;
+	overflow: hidden;
+}
+.info-date{
+	float: left;
+}
+.info-hot{
+	float: left;
+	margin-left: 7%;
+}
+.info-comment{
+	float: left;
+	margin-left: 7%;
+}
+.info-star{
+	float: right;
+}
+.info-icon{
+	font-size: 2rem;
+	float: left;
+	margin-right: 12px;
+}
+.info-icon-weight{
+	font-weight: bold;
+}
+.info-text{
+	display: block;
+	float: left;
+	line-height: 2.5rem;
+}
+.content-text{
+	margin-top: 5%;
+	font-size: 1.375rem;
+	line-height: 33px;
+	letter-spacing: 1.5px;
+	font-family: "宋体";
+}
+.section1-img1{
+	width: 100%;
+	margin-top: 8%;
+	margin-bottom: 1%;
+}
+.section1-img2{
+	margin-top: 8%;
+	overflow: hidden;
+	padding-bottom: 2%;
+}
+.section1-img2 img{
+	width: 46.2%;
+}
+
+.section1-bottom{
+	border-top: 1px solid #d7d7d7;
+	margin-top: 14%;
+}
+.section1-label{
+	margin-top: 6.5%;
+	margin-bottom: 11%;
+}
+.section1-label span{
+	display: inline-block;
+	width: 22%;
+	color: #fff;
+	margin-right: 3%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #666666;
+	font-size: 1.25rem;
+	font-family: "宋体";
+}
+.section1-bottom a{
+	font-size: 1.5rem;
+	font-family: "宋体";
+	display: block;
+	color: #000;
+	line-height: 40px;
+}
+
+.section2{
+	margin-top: 9%;
+	padding: 4.5% 6% 9% 6%;
+	box-shadow: 0 0 7px 4px #f3f3f3;
+}
+.section2-title{
+	font-size: 1.625rem;
+	font-weight: normal;
+	font-family: "宋体";
+	padding-bottom: 6%;
+	border-bottom: 1px solid #d7d7d7;
+}
+.section2-city{
+	margin-top: 9%;
+}
+.section2-city-item{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2%;
+}
+.section2-city-item .span-city{
+	display: inline-block;
+	font-size: 1.375rem;
+	font-family: "宋体";
+	letter-spacing: 1px;
+	height: 30px;
+	line-height: 30px;
+}
+.section2-city-item .span-number{
+	display: inline-block;
+	font-size: 1.25rem;
+	font-family: "Myriad Pro";
+	background-color: #666666;
+	color: #fff;
+	width: 13%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+
+.section3{
+	margin-top: 9%;
+	margin-bottom: 9%;
+	padding: 4.5% 6% 9% 6%;
+	box-shadow: 0 0 7px 4px #f3f3f3;
+}
+.section3-title{
+	font-size: 1.625rem;
+	font-weight: normal;
+	font-family: "宋体";
+	padding-bottom: 6%;
+	border-bottom: 1px solid #d7d7d7;
+}
+.section3-content{
+	margin-top: 7%;
+}
+.section3-content li a{
+	font-size: 1.375rem;
+	font-family: "宋体";
+	color: #000;
+	line-height: 45px;
+}
+
+
+
+@media only screen and (max-width:600px) {
+	html{
+		font-size: 10px;
+	}
+	.container{
+		padding-top: 3.5%;
+	}
+	.container-nav{
+		margin-bottom: 4%;
+	}
+	.section1{
+		padding: 3% 6% 8% 6%; 
+	}
+	.section1-title{
+		padding-bottom: 4%;
+	}
+	.section1-info{
+		margin-top: 3%;
+	}
+	.info-icon{
+		margin-right: 5px;
+	}
+	.info-hot{
+		margin-left: 4%;
+	}
+	.info-comment{
+		margin-left: 4%;
+	}
+	.content-text{
+		line-height: 28px;
+		margin-top: 2.5%;
+	}
+	.section1-img1{
+		margin-top: 4%;
+	}
+	.section1-img2{
+		margin-top: 5%;
+	}
+	.section1-bottom{
+		margin-top: 10%;
+	}
+	.section1-label{
+		margin-top: 4%;
+		margin-bottom: 7%;
+	}
+	.section1-label span{
+		font-size: 1.125rem;
+		height: 35px;
+		line-height: 35px;
+	}
+	.section1-bottom a{
+		line-height: 30px;
+	}
+	.section2{
+		padding: 3% 6% 7% 6%;
+	}
+	.section2-title{
+		padding-bottom: 4%;
+	}
+	.section2-city{
+		margin-top: 7%;
+	}
+	.section3{
+		padding-bottom: 4%;
+	}
+	.section3-title{
+		padding-bottom: 4%;
+	}
+	.section3-content{
+		margin-top: 4%;
+	}
+	.section3-content li a{
+		line-height: 35px;
+	}
+
+
+}
